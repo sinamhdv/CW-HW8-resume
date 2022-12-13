@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 20px;
+	overflow: hidden;
+	background-color: rgb(0, 208, 255);
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: rgb(3, 121, 255);
+}
+
+footer {
+	background-color: lightgray;
+	padding: 10px;
+}
+
+footer li a {
+	text-decoration: none;
+	color: rgb(94, 94, 94);
+}
+
+footer li a:hover {
+	color: rgb(65, 65, 65);
+}
+
+#my-pic {
+	height: 300px;
+}
+
+#coding-pic {
+	height: 400px;
+}
+
+#main-content {
+	padding: 20px;
+}
+
+.normal-text {
+	font-size: 20px;
+}
+
+.required-star {
+	color: red;
+}
